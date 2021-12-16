@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import react from 'react';
-import './App.css'
-import navBar from './components/navBar'
+import logo from './logo.svg'
+import react from 'react'
+import './App.css';
+import NavBar from './components/NavBar'
+
 
 function App() {
  return (
-  <div className="App">
+  <div className='app'>
 
-         <navBar/>
-     
+         <NavBar/>
+       
       
   </div>
   );
